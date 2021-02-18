@@ -13,6 +13,12 @@ public:
 	}
 };
 	
+class Test {
+public:
+	void goesWrong() {
+		throw MyException();
+	}
+};
 
 int main()
 {
